@@ -1,0 +1,11 @@
+Context: Player deletes character
+Primary Flow:
+	1. Player clicks delete button on character
+	2. System asks if player is sure about deletion
+	3. Players is sure about deletion
+	4. Character deleted from server
+Alternate Flow: Player is not sure
+	1. Player clicks delete button on character
+	2. System asks if player is sure about deletion
+	3. Player says cancel deletion
+	4. Character still in server

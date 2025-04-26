@@ -1,0 +1,12 @@
+Context: Player request Campaign
+Primary Flow:
+	1. Player request Campaign
+	2. Dungeon Master recieves request
+	3. Dungeon Master accepts request
+	4. Player added to Campaign
+	
+Alternate Flow: Dungeon Master rejects request
+	1. Player request Campaign
+	2. Dungeon Master recieves request
+	3. Dungeon Master rejects request
+	4. Player can not join campaign

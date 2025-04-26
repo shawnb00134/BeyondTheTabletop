@@ -1,0 +1,12 @@
+.toggle-invisible {
+  -fx-opacity: 0.5;
+}
+/* selected card border */
+.image-card.selected {
+  -fx-border-color: red;
+  -fx-border-width: 3;
+}
+
+.button:hover{
+	-fx-opacity: 55%
+}

@@ -1,0 +1,15 @@
+Context: Dungeon Master wants to add to shared notes and is in campaign lobby
+Primary Flow:
+	1. Dungeon Master clicks on shared notes tab
+	2. Types notes in text area
+	3. click update button
+	4. server saves notes in campaign
+	5. every player in campaign can see notes
+
+Context: Dungeon Master wants to add to personal notes and is in campaign lobby
+Primary Flow:
+	1. Dungeon Master clicks on personal notes tab
+	2. Types notes in text area
+	3. click update button
+	4. server saves notes in campaign
+	5. no player in campaign can see notes

@@ -1,0 +1,14 @@
+Context: Dungeon Master wants to upload resource and make it public
+Primary Flow: 
+	1. Dungeon Master clicks display resource button
+	2. Dungeon Master selects image file 
+	3. Server saves resource to campaign
+	4. Dungeon Master marks resource as public
+	5. All players in campaign can access resource
+Alternate Flow: Dungeon Master wants to upload resource and make it private
+	1. Dungeon Master clicks display resource button
+	2. Dungeon Master selects image file 
+	3. Server saves resource to campaign
+	4. Dungeon Master marks resource as private
+	5. No players in campaign can access resource
+

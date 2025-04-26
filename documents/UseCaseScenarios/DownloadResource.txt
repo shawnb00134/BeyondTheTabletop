@@ -1,0 +1,14 @@
+Context: Player wants to download resource
+Primary Flow:
+	1. Player clicks display resource button
+	2. Popup shows list of the public resources
+	3. Player clicks on desired resource
+	4. Then clicks download 
+	5. Selected resource downloaded on local system
+
+Context: Dungeon Master wants to display
+	1. Dungeon Master clicks display resource button
+	2. Popup shows list of the public and private resources
+	3. Dungeon Master clicks on desired resource
+	4. Then clicks download 
+	5. Selected resource downloaded on local system

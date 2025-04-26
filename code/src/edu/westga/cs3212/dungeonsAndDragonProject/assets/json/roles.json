@@ -1,0 +1,12 @@
+{"name": "Barbarian","flavorText": "A big brute who is skill in combat.","features": ["Rage", "Unarmored Defence"],"proficiencies": ["All Armor", "Shield", "Simple Weapon", "Martial Weapon"]}
+{"name": "Bard","flavorText": "They have a sharp tounge and a sharp knife almost as sharp as their whit.","features": ["Bardic Inspiration"],"proficiencies": ["Light armor", "Simple weapons", "Musical Instruments"]}
+{"name": "Cleric","flavorText": "A priestly champion who wields divine magic in service of a higher power","features": ["Spellcasting", "Divine Domain"],"proficiencies": ["Light Armor", "Medium Armor", "Shield", "Simple Weapon"]}
+{"name": "Druid","flavorText": "A magic user who is intuned with natures and beasts.","features": ["Druidic"],"proficiencies": ["Light armor", "Shield", "Simple weapons", "Herbalism Kit"]}
+{"name": "Fighter","flavorText": "A master of martial combat, skilled with a variety of weapons and armor","features": ["Second Wind"],"proficiencies": ["All Armor", "Shield", "Simple Weapon", "Martial Weapon"]}
+{"name": "Monk","flavorText": "A skilled hand to hand fighter.","features": ["Martial Arts"],"proficiencies": ["No armor", "Simple weapons", "Martial weapons"]}
+{"name": "Paladin","flavorText": "A knight with the favor of a god. Typically a nice.","features": ["Lay On Hands"],"proficiencies": ["All Armor", "Shield", "Simple Weapon", "Martial Weapon"]}
+{"name": "Ranger","flavorText": "A ranged fighter who primarily uses a bow.","features": [""],"proficiencies": ["Light and Medium Armor", "Shields", "Simple Weapons", "Martial Weapons"]}
+{"name": "Rogue","flavorText": "A scoundrel who uses stealth and trickery to overcome obstacles and enemies","features": ["Expertise", "Sneak Attack", "Thieves’ Cant"],"proficiencies": ["Light Armor", "Hand Crossbow", "Longsword", "Rapier", "Short Sword", "Thieves' Tool"]}
+{"name": "Sorcerer","flavorText": "The magic comes from within.","features": ["Innate Sorcery"],"proficiencies": ["Simple Weapons"]}
+{"name": "Warlock","flavorText": "A magic from a higher power.","features": ["Eldritch Invocations", "Pact Magic"],"proficiencies": ["Light Armor", "Simple Weapons"]}
+{"name": "Wizard","flavorText": "A scholarly magic-user capable of manipulating the structures of reality","features": ["Spellcasting", "Arcane Recovery"],"proficiencies": ["Dagger", "Dart", "Sling", "Quarter Staff", "Light Crossbow"]}

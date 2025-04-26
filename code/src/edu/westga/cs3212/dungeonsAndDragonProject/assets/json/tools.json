@@ -1,0 +1,44 @@
+{"armor":[
+	{
+		"name":"Smith's Tools",
+		"ability":"Strength",
+		"save":"DC 20",
+		"cost":"20 GP",
+		"notes":"Helps craft weapons and armor."
+	},
+	{
+		"name":"Disguise Kit",
+		"ability":"Charisma",
+		"save":"DC 10",
+		"cost":"25 GP",
+		"notes":"Disguise yourself or a party member."
+	},
+	{
+		"name":"Forgery Kit",
+		"ability":"Dexterity",
+		"save":"DC 10/20",
+		"cost":"15 GP",
+		"notes":"Forge a letter (DC 10) or forge a wax seal (DC 20)."
+	},
+	{
+		"name":"Herbalism Kit",
+		"ability":"Intelligence",
+		"save":"DC 10",
+		"cost":"5 GP",
+		"notes":"Craft potions."
+	},
+	{
+		"name":"Posioner's Kit",
+		"ability":"Intelligence",
+		"save":"DC 10",
+		"cost":"50 GP",
+		"notes":"Craft a basic posion."
+	},
+	{
+		"name":"Thieve's Tools",
+		"ability":"Dexterity",
+		"save":"DC 15",
+		"cost":"25 GP",
+		"notes":"Pick a lock or disarm a trap."
+	}
+]}

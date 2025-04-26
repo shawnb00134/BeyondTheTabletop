@@ -1,0 +1,122 @@
+{"armor":[
+	{
+		"name":"Padded Armor",
+		"type":"Light",
+		"armorclass":"11",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"T",
+		"weight":"8",
+		"cost":"5 GP",
+		"notes":"Armor Class: 11 + Dex modifier. Disadvantage on stealth checks."
+	},
+	{
+		"name":"Leather Armor",
+		"type":"Light",
+		"armorclass":"11",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"",
+		"weight":"10",
+		"cost":"10 GP",
+		"notes":"Armor Class: 11 + Dex modifier."
+	},
+	{
+		"name":"Studded Leather Armor",
+		"type":"Light",
+		"armorclass":"12",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"",
+		"weight":"13",
+		"cost":"45 GP",
+		"notes":"Armor Class: 12 + Dex modifier."
+	},
+	{
+		"name":"Hide Armor",
+		"type":"Medium",
+		"armorclass":"12",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"",
+		"weight":"12",
+		"cost":"10 GP",
+		"notes":"Armor Class: 12 + Dex modifier (max 2)."
+	},
+	{
+		"name":"Chain Shirt",
+		"type":"Medium",
+		"armorclass":"13",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"",
+		"weight":"20",
+		"cost":"50 GP",
+		"notes":"Armor Class: 13 + Dex modifier (max 2)."
+	},
+	{
+		"name":"Scale Mail",
+		"type":"Medium",
+		"armorclass":"14",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"T",
+		"weight":"45",
+		"cost":"50 GP",
+		"notes":"Armor Class: 14 + Dex modifier (max 2)."
+	},
+	{
+		"name":"Breastplate",
+		"type":"Medium",
+		"armorclass":"14",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"",
+		"weight":"20",
+		"cost":"400 GP",
+		"notes":"Armor Class: 14 + Dex modifier (max 2)."
+	},
+	{
+		"name":"Half Plate Armor",
+		"type":"Medium",
+		"armorclass":"15",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"T",
+		"weight":"40",
+		"cost":"750 GP",
+		"notes":"Armor Class: 15 + Dex modifier (max 2)."
+	},
+	{
+		"name":"Ring Mail",
+		"type":"Heavy",
+		"armorclass":"14",
+		"strengthRequirement":"0",
+		"stealthDisadvantage":"T",
+		"weight":"40",
+		"cost":"30 GP",
+		"notes":"Armor Class: 14."
+	},
+	{
+		"name":"Chain Mail",
+		"type":"Heavy",
+		"armorclass":"16",
+		"strengthRequirement":"13",
+		"stealthDisadvantage":"T",
+		"weight":"55",
+		"cost":"75 GP",
+		"notes":"Armor Class: 16."
+	},
+	{
+		"name":"Splint Armor",
+		"type":"Heavy",
+		"armorclass":"17",
+		"strengthRequirement":"15",
+		"stealthDisadvantage":"T",
+		"weight":"60",
+		"cost":"200 GP",
+		"notes":"Armor Class: 17."
+	},
+	{
+		"name":"Plate Armor",
+		"type":"Heavy",
+		"armorclass":"18",
+		"strengthRequirement":"15",
+		"stealthDisadvantage":"T",
+		"weight":"65",
+		"cost":"1500 GP",
+		"notes":"Armor Class: 18."
+	}
+]}

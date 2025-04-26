@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="accountCreationPane" maxHeight="430.0" maxWidth="400.0" minHeight="400.0" minWidth="400.0" prefHeight="430.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.westga.cs3212.dungeonsAndDragonProject.view.AccountCreationCodeBehind">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" layoutX="-200.0" layoutY="-100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/paper2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="106.0" layoutY="14.0" text="BTT - Account Creation">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="35.0" layoutY="49.0" text="First Name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="testFieldFirstName" layoutX="170.0" layoutY="50.0" maxWidth="200.0" minWidth="200.0" promptText="First Name" />
+      <Label layoutX="36.0" layoutY="99.0" text="Last Name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="testFieldLastName" layoutX="170.0" layoutY="100.0" maxWidth="200.0" minWidth="200.0" promptText="Last Name" />
+      <Label layoutX="36.0" layoutY="149.0" text="Email:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textFieldEmail" layoutX="170.0" layoutY="150.0" maxWidth="200.0" minWidth="200.0" promptText="Email" />
+      <Label layoutX="35.0" layoutY="199.0" text="Username:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfieldUserName" layoutX="170.0" layoutY="200.0" maxWidth="200.0" minWidth="200.0" promptText="Username" />
+      <Label layoutX="35.0" layoutY="249.0" text="Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="textfieldPassword" layoutX="170.0" layoutY="250.0" prefHeight="25.0" prefWidth="200.0" promptText="Password" />
+      <Label layoutX="35.0" layoutY="294.0" text="Re-enter Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="textfieldConfirmPassword" layoutX="197.0" layoutY="295.0" prefHeight="25.0" prefWidth="172.0" promptText="Password" />
+      <Label fx:id="firstNameErrorLabel" layoutX="170.0" layoutY="77.0" prefHeight="17.0" prefWidth="200.0" />
+      <Label fx:id="lastNameErrorLabel" layoutX="167.0" layoutY="127.0" prefHeight="17.0" prefWidth="200.0" />
+      <Label fx:id="emailErrorLabel" layoutX="173.0" layoutY="175.0" prefHeight="17.0" prefWidth="218.0" />
+      <Label fx:id="userNameErroLabel" layoutX="170.0" layoutY="227.0" prefHeight="17.0" prefWidth="200.0" />
+      <Label fx:id="passWordErroLabel" layoutX="170.0" layoutY="277.0" prefHeight="17.0" prefWidth="200.0" />
+      <Label fx:id="labelMessage" layoutX="103.0" layoutY="383.0" prefHeight="33.0" prefWidth="194.0" />
+      <Label fx:id="verifyPassWordErroLabel" layoutX="167.0" layoutY="321.0" prefHeight="17.0" prefWidth="200.0" />
+      <Button fx:id="buttonCreateAccount" layoutX="76.0" layoutY="351.0" mnemonicParsing="false" text="Create Account" />
+      <Button fx:id="buttonCancelCreation" layoutX="244.0" layoutY="351.0" mnemonicParsing="false" text="Cancel" />
+   </children>
+</AnchorPane>

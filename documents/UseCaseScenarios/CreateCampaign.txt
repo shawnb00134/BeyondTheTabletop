@@ -1,0 +1,5 @@
+Context: Player creates a campaign
+Primary Flow:
+	1. Player creates campaign 
+	2. Player is now a dungeon master of campaign
+	3. Dungeon Master invites players to campaign

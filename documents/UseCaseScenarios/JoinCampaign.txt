@@ -1,0 +1,11 @@
+Context: Player joins a campaign
+Primary Flow
+	1. Player has available character 
+	2. Player recieves invite from Dungeon Master 
+	3. Player accepts invite 
+	4. Player's character is added to campaign
+	
+Alternate Flow: Player does not have available character 
+	1. Player has no available character 
+	2. Return to context: create a character 
+	3. Return to primary flow #1

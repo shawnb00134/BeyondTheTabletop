@@ -1,0 +1,12 @@
+Context: Player wants to add personal notes and is in campaign lobby
+Primary Flow:
+	1. Player clicks on themselves in list
+	2. Click display character
+	3. Type notes in notes text area
+	4. Click save button
+	5. Server saves notes to character
+Alternate Flow : Player wants to add personal notes and is in character manager
+	1. Player clicks on desired character
+	2. Type notes in notes text area
+	3. Click save button
+	4. Server saves notes to character

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.westga.cs3212.dungeonsAndDragonProject.view.CharacterCreationCodeBehind">
+   <children>
+      <TabPane fx:id="tabPane" prefHeight="600.0" prefWidth="800.0" style="-fx-tab-min-width: 150; -fx-tab-min-height: 40; -fx-background-color: lightgrey;" tabClosingPolicy="UNAVAILABLE" tabMinHeight="600.0" tabMinWidth="800.0">
+        <tabs>
+          <Tab fx:id="tabBasics" closable="false" text="Basics">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/paper2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="imageCharacterPortrait" fitHeight="150.0" fitWidth="150.0" layoutX="20.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/characterProfile.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="labelCharacterName" layoutX="220.0" layoutY="20.0" text="Character Name:">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="textboxCharacterName" layoutX="220.0" layoutY="50.0" prefWidth="300.0">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </TextField>
+                        <Separator layoutX="20.0" layoutY="200.0" prefWidth="760.0" style="-fx-background-color: black;" />
+                        <Label fx:id="labelLevel" layoutX="70.0" layoutY="235.0" text="Level:" />
+                        <TextField fx:id="textfieldLevel" alignment="CENTER" layoutX="130.0" layoutY="230.0" prefHeight="30.0" prefWidth="35.0" />
+                        <Label fx:id="labelArmorClass" layoutX="220.0" layoutY="235.0" text="Armor Class:" />
+                        <TextField fx:id="textfieldArmorClass" alignment="CENTER" layoutX="320.0" layoutY="230.0" prefHeight="30.0" prefWidth="35.0" />
+                        <Label fx:id="labelMaximumHealth" layoutX="420.0" layoutY="235.0" text="Maximum Health:" />
+                        <TextField fx:id="textfieldMaxHP" layoutX="540.0" layoutY="230.0" prefHeight="30.0" prefWidth="40.0" />
+                        <Label fx:id="labelStrength" layoutX="70.0" layoutY="300.0" text="Strength" />
+                        <Label fx:id="labelDexterity" layoutX="190.0" layoutY="300.0" text="Dexterity" />
+                        <Label fx:id="labelConstitution" layoutX="310.0" layoutY="300.0" text="Constitution" />
+                        <Label fx:id="labelIntelligence" layoutX="430.0" layoutY="300.0" text="Intelligence" />
+                        <Label fx:id="labelWisdom" layoutX="550.0" layoutY="300.0" text="Wisdom" />
+                        <Label fx:id="labelCharisma" layoutX="670.0" layoutY="300.0" text="Charisma" />
+                        <TextField fx:id="textfieldStrength" alignment="CENTER" layoutX="80.0" layoutY="340.0" prefHeight="30.0" prefWidth="35.0" />
+                        <TextField fx:id="textfieldDexterity" alignment="CENTER" layoutX="200.0" layoutY="340.0" prefHeight="30.0" prefWidth="35.0" />
+                        <TextField fx:id="textfieldConstitution" alignment="CENTER" layoutX="320.0" layoutY="340.0" prefHeight="30.0" prefWidth="35.0" />
+                        <TextField fx:id="textfieldIntelligence" alignment="CENTER" layoutX="440.0" layoutY="340.0" prefHeight="30.0" prefWidth="35.0" />
+                        <TextField fx:id="textfieldWisdom" alignment="CENTER" layoutX="560.0" layoutY="340.0" prefHeight="30.0" prefWidth="35.0" />
+                        <TextField fx:id="textfieldCharisma" alignment="CENTER" layoutX="680.0" layoutY="340.0" prefHeight="30.0" prefWidth="35.0" />
+                        <Label fx:id="labelGold" layoutX="72.0" layoutY="430.0" text="Gold:" />
+                        <TextField fx:id="textfieldGold" layoutX="120.0" layoutY="424.0" prefHeight="30.0" prefWidth="120.0" />
+                        <Button fx:id="buttonSave1" layoutX="720.0" layoutY="10.0" mnemonicParsing="false" prefWidth="55.0" text="Save" textAlignment="CENTER">
+                           <effect>
+                              <InnerShadow />
+                           </effect></Button>
+                        <Button fx:id="buttonCancel1" layoutX="720.0" layoutY="50.0" mnemonicParsing="false" prefWidth="55.0" text="Cancel" textAlignment="CENTER">
+                           <effect>
+                              <InnerShadow />
+                           </effect></Button>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="tabClass" closable="false" text="Class">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/paper2.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="labelSelectClass" layoutX="30.0" layoutY="20.0" text="Select your class:" />
+                        <ComboBox fx:id="comboClass" layoutX="135.0" layoutY="16.0" prefHeight="28.0" prefWidth="310.0" promptText="Select Class" />
+                        <Separator layoutX="30.0" layoutY="70.0" prefWidth="550.0" style="-fx-background-color: black;" />
+                        <Label fx:id="labelPickTwo" layoutX="30.0" layoutY="90.0" text="Select two skill proficiencies:" />
+                        <TextField fx:id="textfieldProficiency1" layoutX="30.0" layoutY="113.0" prefHeight="30.0" prefWidth="300.0" />
+                        <TextField fx:id="textfieldProficiency2" layoutX="375.0" layoutY="113.0" prefHeight="30.0" prefWidth="300.0" />
+                        <Separator layoutX="30.0" layoutY="170.0" prefWidth="740.0" style="-fx-background-color: black;" />
+                        <Label fx:id="labelChooseWeaponMastery" layoutX="30.0" layoutY="196.0" text="Choose two weapon masteries:" />
+                        <TextField fx:id="textfieldWeaponMastery1" layoutX="30.0" layoutY="224.0" prefHeight="30.0" prefWidth="300.0" />
+                        <TextField fx:id="textfieldWeaponMastery2" layoutX="380.0" layoutY="224.0" prefHeight="30.0" prefWidth="300.0" />
+                        <Label fx:id="labelAddEquipment" layoutX="20.0" layoutY="270.0" text="Add starting equipment:" />
+                        <TextField fx:id="textfieldEquipment" layoutX="20.0" layoutY="300.0" promptText="Enter equipment here." />
+                        <Button fx:id="buttonAddEquipment" layoutX="20.0" layoutY="335.0" mnemonicParsing="false" text="Add" />
+                        <Button fx:id="buttonRemoveEquipment" layoutX="70.0" layoutY="335.0" mnemonicParsing="false" text="Remove" textAlignment="CENTER" />
+                        <ListView fx:id="listviewEquipment" layoutX="180.0" layoutY="300.0" prefHeight="100.0" prefWidth="200.0" />
+                        <Label fx:id="labelAddSpells" layoutX="410.0" layoutY="270.0" text="Add spells:" />
+                        <TextField fx:id="textfieldSpells" layoutX="410.0" layoutY="300.0" promptText="Enter spell name here." />
+                        <Button fx:id="buttonAddSpells" layoutX="410.0" layoutY="335.0" mnemonicParsing="false" text="Add" />
+                        <Button fx:id="buttonRemoveSpell" layoutX="460.0" layoutY="335.0" mnemonicParsing="false" text="Remove" textAlignment="CENTER" />
+                        <ListView fx:id="listviewSpells" layoutX="580.0" layoutY="300.0" prefHeight="100.0" prefWidth="200.0" />
+                        <Label fx:id="labelAddFeats" layoutX="20.0" layoutY="415.0" text="Add feats:" />
+                        <TextField fx:id="textfieldFeat" layoutX="20.0" layoutY="445.0" promptText="Enter feat here." />
+                        <Button fx:id="buttonAddFeat" layoutX="20.0" layoutY="475.0" mnemonicParsing="false" text="Add" />
+                        <Button fx:id="buttonRemoveFeat" layoutX="70.0" layoutY="475.0" mnemonicParsing="false" text="Remove" textAlignment="CENTER" />
+                        <ListView fx:id="listviewFeats" layoutX="180.0" layoutY="445.0" prefHeight="100.0" prefWidth="200.0" />
+                        <Button fx:id="buttonSave2" layoutX="720.0" layoutY="10.0" mnemonicParsing="false" prefWidth="55.0" text="Save" textAlignment="CENTER">
+                           <effect>
+                              <InnerShadow />
+                           </effect></Button>
+                        <Button fx:id="buttonCancel2" layoutX="720.0" layoutY="50.0" mnemonicParsing="false" prefWidth="55.0" text="Cancel" textAlignment="CENTER">
+                           <effect>
+                              <InnerShadow />
+                           </effect></Button>
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="tabBackground" closable="false" text="Background">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../assets/images/paper1.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="labelChooseASpecies" layoutX="40.0" layoutY="50.0" text="Select a species:" />
+                        <ComboBox fx:id="comboSpecies" layoutX="170.0" layoutY="44.0" prefHeight="28.0" prefWidth="210.0" promptText="-Choose a Species-" />
+                        <Separator layoutX="30.0" layoutY="110.0" prefWidth="740.0" style="-fx-background-color: black;" />
+                        <Label fx:id="labelAlignment" layoutX="50.0" layoutY="158.0" text="Alignment:" />
+                        <TextField fx:id="textfieldAlignment" layoutX="120.0" layoutY="154.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelFaith" layoutX="444.0" layoutY="157.0" text="Faith:" />
+                        <TextField fx:id="textfieldFaith" layoutX="490.0" layoutY="154.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelHair" layoutX="83.0" layoutY="235.0" text="Hair:" />
+                        <TextField fx:id="textfieldHair" layoutX="120.0" layoutY="230.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelEyes" layoutX="445.0" layoutY="234.0" text="Eyes:" />
+                        <TextField fx:id="textfieldEyes" layoutX="490.0" layoutY="230.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelHeight" layoutX="68.0" layoutY="304.0" text="Height:" />
+                        <TextField fx:id="textfieldHeight" layoutX="120.0" layoutY="300.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelSkin" layoutX="446.0" layoutY="304.0" text="Skin:" />
+                        <TextField fx:id="textfieldSkin" layoutX="490.0" layoutY="300.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelAge" layoutX="80.0" layoutY="374.0" text="Age:" />
+                        <TextField fx:id="textfieldAge" layoutX="120.0" layoutY="370.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelWeight" layoutX="431.0" layoutY="374.0" text="Weight:" />
+                        <TextField fx:id="textfieldWeight" layoutX="490.0" layoutY="370.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Label fx:id="labelGender" layoutX="429.0" layoutY="443.0" text="Gender:" />
+                        <TextField fx:id="textfieldGender" layoutX="490.0" layoutY="440.0" prefHeight="26.0" prefWidth="180.0" />
+                        <Button fx:id="buttonSave3" layoutX="720.0" layoutY="10.0" mnemonicParsing="false" prefWidth="55.0" text="Save" textAlignment="CENTER">
+                           <effect>
+                              <InnerShadow />
+                           </effect></Button>
+                        <Button fx:id="buttonCancel3" layoutX="720.0" layoutY="50.0" mnemonicParsing="false" prefWidth="55.0" text="Cancel" textAlignment="CENTER">
+                           <effect>
+                              <InnerShadow />
+                           </effect></Button>
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

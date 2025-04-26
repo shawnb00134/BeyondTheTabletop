@@ -1,0 +1,21 @@
+Context:Player logins to system with account already
+
+Primary Flow
+	1. Player has an account already 
+	2. Player enters username and password
+	3. Player's user and password are valid
+	4. Player logs into account
+	5. Player is now on character screen
+
+Alternate Flow
+	1. Player's user and password are invalid 
+	2. Return to primary flow #2
+
+
+Context: Player logins to system without an account already
+Primary Flow:
+	1. Player does not have account already
+	2. Player creates account
+	3. Return to primary flow #1 player logins to system with account already
+	
+	

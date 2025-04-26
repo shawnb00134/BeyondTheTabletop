@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="characterManagerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.westga.cs3212.dungeonsAndDragonProject.view.CharacterViewerCodeBehind">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/images/paper1.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonCharacterManager" layoutX="30.0" layoutY="15.0" mnemonicParsing="false" prefWidth="200.0" text="Character Manager">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonCampaignManager" layoutX="300.0" layoutY="15.0" mnemonicParsing="false" prefWidth="200.0" text="Campaign Manager">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonProfile" layoutX="570.0" layoutY="15.0" mnemonicParsing="false" prefWidth="200.0" text="Profile">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Separator layoutX="30.0" layoutY="60.0" prefWidth="740.0" style="-fx-background-color: black;" />
+      <Label fx:id="labelCharName" layoutX="30.0" layoutY="70.0" text="Character Name Here">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelCharLevel" layoutX="30.0" layoutY="105.0" text="LEVEL HERE" />
+      <Label fx:id="labelCharRace" layoutX="30.0" layoutY="130.0" text="CHARACTER RACE" />
+      <Label fx:id="labelCharClass" layoutX="30.0" layoutY="155.0" text="CHARACTER CLASS" />
+      <Label alignment="CENTER" layoutX="250.0" layoutY="75.0" prefHeight="18.0" prefWidth="26.0" text="STR" />
+      <Label alignment="CENTER" layoutX="300.0" layoutY="75.0" prefHeight="18.0" prefWidth="26.0" text="DEX" />
+      <Label alignment="CENTER" layoutX="350.0" layoutY="75.0" prefHeight="18.0" prefWidth="26.0" text="CON" />
+      <Label alignment="CENTER" layoutX="400.0" layoutY="75.0" prefHeight="18.0" prefWidth="26.0" text="INT" />
+      <Label alignment="CENTER" layoutX="450.0" layoutY="75.0" prefHeight="18.0" prefWidth="26.0" text="WIS" />
+      <Label alignment="CENTER" layoutX="500.0" layoutY="75.0" prefHeight="18.0" prefWidth="26.0" text="CHA" />
+      <Label fx:id="labelCharStr" alignment="CENTER" layoutX="250.0" layoutY="100.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharDex" alignment="CENTER" layoutX="300.0" layoutY="100.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharCon" alignment="CENTER" layoutX="350.0" layoutY="100.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharInt" alignment="CENTER" layoutX="400.0" layoutY="100.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharWis" alignment="CENTER" layoutX="450.0" layoutY="100.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharCha" alignment="CENTER" layoutX="500.0" layoutY="100.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharStrBonus" alignment="CENTER" layoutX="250.0" layoutY="120.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharDexBonus" alignment="CENTER" layoutX="300.0" layoutY="120.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharConBonus" alignment="CENTER" layoutX="350.0" layoutY="120.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharIntBonus" alignment="CENTER" layoutX="400.0" layoutY="120.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharWisBonus" alignment="CENTER" layoutX="450.0" layoutY="120.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharChaBonus" alignment="CENTER" layoutX="500.0" layoutY="120.0" prefHeight="18.0" prefWidth="26.0" text="99" />
+      <Label fx:id="labelCharHealth" alignment="CENTER_RIGHT" layoutX="570.0" layoutY="80.0" prefHeight="25.0" prefWidth="65.0" text="999/999">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="textfieldHealthModifier" layoutX="645.0" layoutY="80.0" prefHeight="26.0" prefWidth="34.0" />
+      <Button fx:id="buttonHealChar" layoutX="690.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: CHARTREUSE;" text="+" />
+      <Button fx:id="buttonDamageChar" layoutX="690.0" layoutY="95.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: red;" text="-">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelCharAC" layoutX="590.0" layoutY="110.0" text="AC: 99" />
+      <Button fx:id="buttonInspiration" alignment="CENTER" layoutX="730.0" layoutY="75.0" mnemonicParsing="false" style="-fx-background-color: lightgray;">
+         <graphic>
+            <ImageView fx:id="imageD20" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../assets/images/inspirationD20.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Separator layoutX="30.0" layoutY="175.0" prefWidth="740.0" style="-fx-background-color: black;" />
+      <Label alignment="TOP_LEFT" layoutX="30.0" layoutY="185.0" prefHeight="310.0" prefWidth="95.0" text="Acrobatics&#10;Animal Handling&#10;Arcana&#10;Atheletics&#10;Deception&#10;History&#10;Insight&#10;Intimidation&#10;Investigation&#10;Medicine&#10;Nature&#10;Perception&#10;Performance&#10;Persuasion&#10;Religion&#10;Sleight of Hand&#10;Stealth&#10;Survival" />
+      <Label fx:id="labelBonusModifiers" alignment="TOP_RIGHT" layoutX="135.0" layoutY="185.0" prefHeight="310.0" prefWidth="26.0" text="99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99&#10;99" textAlignment="RIGHT" />
+      <TabPane fx:id="tabPane" layoutX="490.0" layoutY="185.0" prefHeight="400.0" prefWidth="300.0" style="-fx-border-color: black;" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="tabInventory" text="Inventory">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="listviewInventory" prefHeight="370.0" prefWidth="300.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="tabSpells" text="Spells">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="listviewSpells" prefHeight="370.0" prefWidth="300.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+            <Tab fx:id="tabAbilities" text="Abilities">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="listviewAbilities" prefHeight="370.0" prefWidth="300.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab fx:id="tabFeats" text="Feats">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="listviewFeats" prefHeight="370.0" prefWidth="300.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+            <Tab fx:id="tabBackground" text="Background">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ListView fx:id="listviewBackground" prefHeight="370.0" prefWidth="300.0" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Label fx:id="labelCoin" layoutX="230.0" layoutY="195.0" prefHeight="18.0" prefWidth="88.0" text="Gold: 999999" />
+      <TextField fx:id="textfieldCoinModifier" layoutX="325.0" layoutY="192.0" prefHeight="26.0" prefWidth="34.0" />
+      <Button fx:id="buttonAddCoin" layoutX="375.0" layoutY="182.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: CHARTREUSE;" text="+" />
+      <Button fx:id="buttonRemoveCoin" layoutX="375.0" layoutY="212.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" style="-fx-background-color: red;" text="-" />
+      <TextArea fx:id="textareaCampaignNotes" layoutX="190.0" layoutY="250.0" prefHeight="335.0" prefWidth="290.0" promptText="Campaign notes." wrapText="true" />
+      <Button fx:id="buttonSaveChanges" layoutX="72.0" layoutY="544.0" mnemonicParsing="false" text="Save">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+   </children>
+</AnchorPane>

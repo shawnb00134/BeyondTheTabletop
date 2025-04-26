@@ -1,0 +1,15 @@
+Context: Dungeon Master Invite Player to Campaign
+Primary Flow:
+	1. Invites player by username
+	2. System find existing account with username
+	3. Player recieves request
+	4. Player accepts request
+	5. Player is added to Campaign
+	
+Alternate Flow: Username not found in existing account
+	1. System tells dungeon master no account found
+	2. go back to #1
+	
+Alternate Flow: Player rejects invite
+	1. Player reject inivite
+	2. Player is not added to Campaign

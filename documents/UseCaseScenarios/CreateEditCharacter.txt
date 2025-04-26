@@ -1,0 +1,14 @@
+Context: Player is logged in and creates a character
+Primary Flow:
+	1. Player clicks add character
+	2. Player provides name, race, and class at least
+	3. Player clicks save button
+	4. Server saves character
+
+Context: Player is logged in and edits a character
+Primary Flow: 
+	1. Player clicks on desired existing character
+	2. Player updates character
+	3. Player clicks save button
+	4. Server overrides and save updated character
+	

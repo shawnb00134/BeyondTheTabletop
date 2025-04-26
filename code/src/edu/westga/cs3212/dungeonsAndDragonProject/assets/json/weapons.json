@@ -1,0 +1,343 @@
+{"weapons":[
+	{
+		"name":"Club",
+		"damage":"1d4 Bludgeoning",
+		"properties":["Light"],
+		"mastery":"Slow",
+		"weight":"2",
+		"cost":"1 SP",
+		"notes":""
+	},
+	{
+		"name":"Dagger",
+		"damage":"1d4 Piercing",
+		"properties":["Light", "Finesse", "Thrown"],
+		"mastery":"Nick",
+		"weight":"1",
+		"cost":"2 GP",
+		"notes": "Thrown range (20/60)"
+	},
+	{
+		"name":"Greatclub",
+		"damage":"1d8 Bludgeoning",
+		"properties":["Two-Handed"],
+		"mastery":"Push",
+		"weight":"10",
+		"cost":"2 SP",
+		"notes":""
+	},
+	{
+		"name":"Handaxe",
+		"damage":"1d6 Slashing",
+		"properties":["Light", "Thrown"],
+		"mastery":"Vex",
+		"weight":"2",
+		"cost":"2 GP",
+		"notes":"Thrown range (20/60)"
+	},
+	{
+		"name":"Javelin",
+		"damage":"1d6 Piercing",
+		"properties":["Thrown"],
+		"mastery":"Slow",
+		"weight":"2",
+		"cost":"5 SP",
+		"notes":"Thrown range (30/120)"
+	},
+	{
+		"name":"Light Hammer",
+		"damage":"1d4 Bludgeoning",
+		"properties":["Light", "Thrown"],
+		"mastery":"Nick",
+		"weight":"2",
+		"cost":"2 GP",
+		"notes":"Thrown range (20/60)"
+	},
+	{
+		"name":"Mace",
+		"damage":"1d6 Bludgeoning",
+		"properties":[""],
+		"mastery":"Sap",
+		"weight":"4",
+		"cost":"5 GP",
+		"notes":""
+	},
+	{
+		"name":"Quarterstaff",
+		"damage":"1d6 Bludgeoning",
+		"properties":["Versatile"],
+		"mastery":"Topple",
+		"weight":"4",
+		"cost":"2 SP",
+		"notes":"Versatile 1d8"
+	},
+	{
+		"name":"Sickle",
+		"damage":"1d4 Slashing",
+		"properties":["Light"],
+		"mastery":"Nick",
+		"weight":"2",
+		"cost":"1 GP",
+		"notes":""
+	},
+	{
+		"name":"Spear",
+		"damage":"1d6 Piercing",
+		"properties":["Thrown", "Versatile"],
+		"mastery":"Sap",
+		"weight":"3",
+		"cost":"1 GP",
+		"notes":"Thrown range (20/60). Versatile 1d8"
+	},
+	{
+		"name":"Dart",
+		"damage":"1d4 Piercing",
+		"properties":["Finesse", "Thrown"],
+		"mastery":"Vex",
+		"weight":"0.25",
+		"cost":"5 CP",
+		"notes":"Thrown range (20/60)"
+	},
+	{
+		"name":"Light Crossbow",
+		"damage":"1d8 Piercing",
+		"properties":["Ammunition","Loading", "Two-Handed"],
+		"mastery":"Slow",
+		"weight":"5",
+		"cost":"25 GP",
+		"notes":"Ammunition bolt - range (80/320)"
+	},
+	{
+		"name":"Shortbow",
+		"damage":"1d6 Piercing",
+		"properties":["Ammunition", "Two-Handed"],
+		"mastery":"Vex",
+		"weight":"2",
+		"cost":"25 GP",
+		"notes":"Ammunition arrow - range (80/320)"
+	},
+	{
+		"name":"Sling",
+		"damage":"1d4 Bludgeoning",
+		"properties":["Ammunition"],
+		"mastery":"Slow",
+		"weight":"0",
+		"cost":"1 SP",
+		"notes":"Ammunition bullet - range (30/120)"
+	},
+	{
+		"name":"Battleaxe",
+		"damage":"1d8 Slashing",
+		"properties":["Versatile"],
+		"mastery":"Topple",
+		"weight":"4",
+		"cost":"10 GP",
+		"notes":"Versatile 1d10"
+	},
+	{
+		"name":"Flail",
+		"damage":"1d8 Bludgeoning",
+		"properties":[""],
+		"mastery":"Sap",
+		"weight":"2",
+		"cost":"10 GP",
+		"notes":""
+	},
+	{
+		"name":"Glaive",
+		"damage":"1d10 Slashing",
+		"properties":["Heavy", "Reach", "Two-Handed"],
+		"mastery":"Graze",
+		"weight":"6",
+		"cost":"20 GP",
+		"notes":""
+	},
+	{
+		"name":"Greataxe",
+		"damage":"1d12 Slashing",
+		"properties":["Heavy", "Two-Handed"],
+		"mastery":"Cleave",
+		"weight":"7",
+		"cost":"30 GP",
+		"notes":""
+	},
+	{
+		"name":"Greatsword",
+		"damage":"2d6 Slashing",
+		"properties":["Heavy", "Two-Handed"],
+		"mastery":"Graze",
+		"weight":"6",
+		"cost":"50 GP",
+		"notes":""
+	},
+	{
+		"name":"Halberd",
+		"damage":"1d10 Slashing",
+		"properties":["Heavy", "Reach", "Two-Handed"],
+		"mastery":"Cleave",
+		"weight":"6",
+		"cost":"20 GP",
+		"notes":""
+	},
+	{
+		"name":"Lance",
+		"damage":"1d10 Piercing",
+		"properties":["Heavy", "Reach", "Two-Handed"],
+		"mastery":"Topple",
+		"weight":"6",
+		"cost":"20 GP",
+		"notes":"Two-Handed unless mounted."
+	},
+	{
+		"name":"Longsword",
+		"damage":"1d8 Slashing",
+		"properties":["Versatile"],
+		"mastery":"Sap",
+		"weight":"3",
+		"cost":"15 GP",
+		"notes":"Versatile 1d10"
+	},
+	{
+		"name":"Maul",
+		"damage":"2d6 Bludgeoning",
+		"properties":["Heavy", "Two-Handed"],
+		"mastery":"Topple",
+		"weight":"10",
+		"cost":"10 GP",
+		"notes":""
+	},
+	{
+		"name":"Morningstar",
+		"damage":"1d8 Piercing",
+		"properties":[""],
+		"mastery":"Sap",
+		"weight":"4",
+		"cost":"15 GP",
+		"notes":""
+	},
+	{
+		"name":"Pike",
+		"damage":"1d10 Piercing",
+		"properties":["Heavy", "Reach", "Two-Handed"],
+		"mastery":"Push",
+		"weight":"18",
+		"cost":"5 GP",
+		"notes":""
+	},
+	{
+		"name":"Rapier",
+		"damage":"1d10 Piercing",
+		"properties":["Finesse"],
+		"mastery":"Vex",
+		"weight":"2",
+		"cost":"25 GP",
+		"notes":""
+	},
+	{
+		"name":"Scimitar",
+		"damage":"1d6 Slashing",
+		"properties":["Finesse", "Light"],
+		"mastery":"Nick",
+		"weight":"3",
+		"cost":"25 GP",
+		"notes":""
+	},
+	{
+		"name":"Shortsword",
+		"damage":"1d6 Piercing",
+		"properties":["Finesse", "Light"],
+		"mastery":"Vex",
+		"weight":"2",
+		"cost":"10 GP",
+		"notes":""
+	},
+	{
+		"name":"Trident",
+		"damage":"1d8 Piercing",
+		"properties":["Thrown", "Versatile"],
+		"mastery":"Topple",
+		"weight":"5",
+		"cost":"5 GP",
+		"notes":"Thrown range (20/60). Versatile 1d10"
+	},
+	{
+		"name":"Warhammer",
+		"damage":"1d8 Bludgeoning",
+		"properties":["Versatile"],
+		"mastery":"Push",
+		"weight":"5",
+		"cost":"15 GP",
+		"notes":"Versatile 1d10"
+	},
+	{
+		"name":"War Pick",
+		"damage":"1d8 Bludgeoning",
+		"properties":["Versatile"],
+		"mastery":"Sap",
+		"weight":"2",
+		"cost":"5 GP",
+		"notes":"Versatile 1d10"
+	},
+	{
+		"name":"Whip",
+		"damage":"1d4 Slashing",
+		"properties":["Finesse", "Reach"],
+		"mastery":"Slow",
+		"weight":"3",
+		"cost":"2 GP",
+		"notes":""
+	},
+	{
+		"name":"Blowgun",
+		"damage":"1 Piercing",
+		"properties":["Ammunition", "Loading"],
+		"mastery":"Vex",
+		"weight":"1",
+		"cost":"10 GP",
+		"notes":"Ammunition neddle - range (25/100)"
+	},
+	{
+		"name":"Hand Crossbow",
+		"damage":"1d6 Piercing",
+		"properties":["Ammunition", "Light", "Loading"],
+		"mastery":"Vex",
+		"weight":"3",
+		"cost":"75 GP",
+		"notes":"Ammunition bolt - range (30/120)"
+	},{
+		"name":"Heavy Crossbow",
+		"damage":"1d10 Piercing",
+		"properties":["Ammunition", "Heavy", "Loading", "Two-Handed"],
+		"mastery":"Push",
+		"weight":"18",
+		"cost":"50 GP",
+		"notes":"Ammunition bolt - range (100/400)"
+	},
+	{
+		"name":"Longbow",
+		"damage":"1d8 Piercing",
+		"properties":["Ammunition", "Heavy", "Two-Handed"],
+		"mastery":"Slow",
+		"weight":"2",
+		"cost":"50 GP",
+		"notes":"Ammunition arrow - range (150/600)"
+	},
+	{
+		"name":"Musket",
+		"damage":"1d12 Piercing",
+		"properties":["Ammunition", "Loading", "Two-Handed"],
+		"mastery":"Slow",
+		"weight":"10",
+		"cost":"500 GP",
+		"notes":"Ammunition bullet - range (40/120)"
+	},
+	{
+		"name":"Pistol",
+		"damage":"1d10 Piercing",
+		"properties":["Ammunition", "Loading"],
+		"mastery":"Vex",
+		"weight":"3",
+		"cost":"500 GP",
+		"notes":""
+	}
+]}
